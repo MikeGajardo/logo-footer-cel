@@ -1,0 +1,27 @@
+
+.focus-area {
+    position: relative;
+    border-top: 2px solid #F1F1F1;
+    padding: 10px;
+    max-width: 1440px;
+    margin: auto;
+    margin-top:  100px;
+    margin-bottom:  80px;
+  }
+
+  .focus-area a.logo {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    background-color: white;
+  }
+
+    @media(max-width: 900px){
+  .focus-area {
+    margin-bottom:  50px;
+  }
+
+
+}	
